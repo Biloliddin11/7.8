@@ -18,6 +18,7 @@ export default function Home() {
           <Link href="/" className="text-gray-800 text-lg font-bold">Bosh sahifa</Link>
           <Link href="/kurslar" className="text-gray-800 text-lg font-bold">O‘quv kurslari</Link>
           <Link href="/yangiliklar" className="text-gray-800 text-lg font-bold">Yangiliklar</Link></div>
+          
       </nav>
    </header>
    
@@ -35,6 +36,19 @@ export default function Home() {
         ))}
       </div>
     </main>
+    <section className="bg-gray-400 p-6 mt-6">
+      <h2 className="text-2xl font-bold mb-4">Biz haqimizda</h2>
+      <p className="text-gray-700">
+        Bizning maqsadimiz - zamonaviy texnologiyalarni o‘rganish va ulardan samarali foydalanish. 
+        O‘quv kurslarimiz sizga kerakli bilim va ko‘nikmalarni berishga qaratilgan.
+      </p>
+      <p className="text-gray-700">
+        Bizning mutaxassislarimiz sizga eng so‘nggi texnologiyalar va metodologiyalarni o‘rganishga yordam beradi.
+        O‘quv jarayoni interaktiv va qiziqarli bo‘lishi uchun barcha imkoniyatlarni yaratamiz.
+        Sizning muvaffaqiyatingiz biz uchun muhimdir va biz sizni har doim qo‘llab-quvvatlaymiz.
+      </p>
+    </section>
+
     <Footer />
 
    </>
