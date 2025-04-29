@@ -27,7 +27,7 @@ export default function Home() {
       </nav>
    </header>
     <section className="bg-white p-6 flex" >
-      <div><h2 className='text-9xl font-bold text-center mt-10 text-indigo-500' >
+      <div><h2 className='text-9xl font-bold text-center mt-10 text-red-500' >
         Everest o‘quv kurslari
 
       </h2>
